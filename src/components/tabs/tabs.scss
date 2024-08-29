@@ -1,0 +1,66 @@
+.tabs__btn {
+    padding: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 8rem;
+    padding-bottom: 10rem;
+}
+.tabs__btn-item {
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.tabs__btn-item--active {
+    color: #0066ff;
+}
+
+.tabs__content-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10rem 4rem;
+}
+.choes {
+    padding: 10rem 0 15rem;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 0.9rem;
+}
+
+.button {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__container-item {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.select__filter {
+    display: flex;
+}
+
+.button__reset {
+    width: 70px;
+    height: 30px;
+    margin-top: 75px;
+    font-size: 10px;
+    border: none;
+    background-color: #0066ff;
+    color: aliceblue;
+    text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    display: inline-block;
+}
